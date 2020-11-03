@@ -16,11 +16,6 @@ import streamlit as st
 
 data = pd.DataFrame(np.random.randint(10, 10))
 
-# Magic commands implicitly `st.write()`
-''' _This_ is some __Markdown__ '''
-a = 3
-'dataframe:', data
-
-
-
-
+st.dataframe(data)
+st.table(data.iloc[0:10])
+st.json({'foo': 'bar', 'fu': 'ba'})
