@@ -12,11 +12,11 @@
 import numpy as np
 import pandas as pd
 
+import streamlit as st
 
 data = pd.DataFrame(np.random.randint(10, 10))
 
-
 # Magic commands implicitly `st.write()`
 ''' _This_ is some __Markdown__ '''
-a=3
+a = 3
 'dataframe:', data
