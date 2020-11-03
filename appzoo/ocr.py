@@ -33,6 +33,7 @@ if biz == 'ImageUrl':
     result = ocr.ocr(input_image, cls=True)
     output_image = ocr_result_image(result, input_image)
     st.image(output_image)
+    st.json(result)
 
 
 elif biz == 'ImageFile':
@@ -40,5 +41,5 @@ elif biz == 'ImageFile':
     if input_image:
         result = ocr.ocr(input_image, cls=True)
         output_image = ocr_result_image(result, input_image)
-
         st.image(output_image)
+        st.json(result)
