@@ -25,7 +25,7 @@ biz = st.sidebar.selectbox('输入方式', ('ImageUrl', 'ImageFile'), index=0)
 
 if biz == 'ImageUrl':
     ImageUrl = st.text_input("ImageUrl",
-                             "https://dgss2.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/her/static/indexnew/container/search/baidu-logo.ba9d667.png")
+                             "https://i1.mifile.cn/f/i/mioffice/img/slogan_5.png?1604383825042")
     input_image = 'image.png'
     # import wget
     # wget.download(ImageUrl, img_path)
