@@ -1,2 +1,1 @@
-# StreamlitApp
-Streamlit Apps
+# AppZoo
