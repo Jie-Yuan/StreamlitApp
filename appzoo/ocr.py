@@ -17,7 +17,7 @@ from appzoo.utils.ocr_utils import *
 
 from appzoo.utils.streamlit_utils import *
 
-ocr = st.cache(persist=True)(PaddleOCR(use_angle_cls=True, lang="ch"))
+ocr = PaddleOCR(use_angle_cls=True, lang="ch")
 
 # side
 st.sidebar.markdown('**OCR SideBar**')
