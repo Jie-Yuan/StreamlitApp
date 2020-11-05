@@ -23,6 +23,7 @@ ocr = PaddleOCR(use_angle_cls=True, lang="ch")
 st.sidebar.markdown('**OCR SideBar**')
 biz = st.sidebar.selectbox('输入方式', ('ImageUrl', 'ImageFile'), index=0)
 
+
 if biz == 'ImageUrl':
     ImageUrl = st.text_input("ImageUrl",
                              "https://i1.mifile.cn/f/i/mioffice/img/slogan_5.png?1604383825042")
